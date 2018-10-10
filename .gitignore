@@ -2,6 +2,7 @@
 *~
 __pycache__
 ibts_vir
+.gitignore
 db.sqlite3
 /static
 .DS_Store
