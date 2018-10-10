@@ -5,7 +5,7 @@ import datetime
 # Create your views here.
 def validation(request, rf_id):
     try:
-        studentobj=Student.objects.get(rf_id=rfvalue)
+        studentobj=Student.objects.get(rfvalue=rf_id)
     except Student.DoesNotExist:
         #raise Http404("Invalid Register Number");
         return HttpResponse("Invalid")
