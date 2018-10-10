@@ -1,5 +1,5 @@
 from django.urls import path
 from .import  views
 urlpatterns=[
-    path('<str:reg_no>/', views.validation, name='validation'),
+    path('<str:rf_id>/', views.validation, name='validation'),
 ]

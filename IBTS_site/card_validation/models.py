@@ -5,6 +5,7 @@ class Student(models.Model):
     name=models.CharField(max_length=200)
     roll_no=models.CharField(max_length=10)
     Fee = models.CharField(max_length=10)
+    rfvalue=models.CharField(max_length=20)
 
     def __str__(self):
         return self.roll_no
